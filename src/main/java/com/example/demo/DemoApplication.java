@@ -16,7 +16,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String helloWorld() {
-		return "Hello World V3";
+		return "Hello AWS World V4";
 	}	
 
 }
