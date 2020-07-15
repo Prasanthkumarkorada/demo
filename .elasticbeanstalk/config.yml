@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: demo-dev-env
+    group_suffix: null
+global:
+  application_name: demo
+  branch: null
+  default_ec2_keyname: 20003660-aws-ec2-kp
+  default_platform: Java 8 running on 64bit Amazon Linux
+  default_region: ap-south-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: null
+  workspace_type: Application
+deploy:
+  artifact: target/demo-0.0.1-SNAPSHOT.jar
