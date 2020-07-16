@@ -28,3 +28,4 @@ https://github.com/hariskumar-panakkal/demo/blob/master/jar/demo-0.0.1-SNAPSHOT.
      - ```mvn clean install -DskipTests```
      - ```eb deploy demo-dev-env```
   - ```eb open``` will open the application in browse or click the link from aws console
+    - sample url http://demo-dev-env.ap-south-1.elasticbeanstalk.com/
