@@ -21,7 +21,7 @@ https://github.com/hariskumar-panakkal/demo/blob/master/jar/demo-0.0.1-SNAPSHOT.
 - Use console option to deploy using sample jar  provided below
 - Deploy using  CLI 
   - Install AWS CLI  and EB CLI  (check ```aws --version``` and ```eb --version```)
-  - Clone the demo repository  (```git clone https://github.com/hariskumar-panakkal/demo.git ``)
+  - Clone the demo repository  (```git clone https://github.com/hariskumar-panakkal/demo.git ```)
   - ```cd demo```  and execute the following commands to build jar file & deploy jar file to AWS Beanstalk
   - start with ```eb init``` & modify  ```config.yml``` to add environment  & ```deploy: artifact```  refer  .elasticbeanstalk folder for sample
   - if you have a shell prompt run  ```./deploy.sh``` or  ```run mvn``` and ```eb``` commends manually
